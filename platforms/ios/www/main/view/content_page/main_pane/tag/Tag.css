@@ -1,0 +1,157 @@
+#mainPane #tag
+{
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: -2px 0px 4px #999999;
+    width: 200px;
+    display: none; 
+    background: #f0f0f0;  
+    z-index: 90;
+}
+
+#mainPane #tagDiv
+{
+	position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#mainPane #tagDiv #tagInputDiv
+{
+	z-index: 100;
+}
+
+#mainPane #tagDiv #tagScrollWrapper
+{
+	position: absolute;	
+	margin: 0px;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	bottom: 60px;
+}
+
+#mainPane #tagDiv #tagScrollWrapper #tagGroupWrapper
+{
+	width: 190px;
+	overflow:hidden;
+	padding-left: 5px;
+}
+
+#mainPane #tagDiv .tagGroup .tagSecHeader
+{
+	position: relative;
+	margin: 0px;
+	color: #ff7700;
+	font-weight: 700;
+	font-size: 11px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	border-bottom: 1px dotted #ff7700;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+#mainPane #tagDiv .tagGroup
+{
+	position: relative;
+}
+
+#mainPane #tagDiv #doneTaggingBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 0px;
+	right: 100px;
+	bottom: 0px;
+	background: #a8b34b;
+	font-weight: 700;
+}
+
+#mainPane #tagDiv #addBtn
+{
+	margin: 0px;
+	width: 53px;
+	height: 33px;
+	position:absolute;
+    top: 0px;
+    right: 0px;
+    background: #7f91a3;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#mainPane #tagDiv #cancelTaggingBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 100px;
+	right: 0px;
+	bottom: 0px;
+	font-weight: 700;
+}
+
+#mainPane #tagDiv #tagScrollWrapper .tagBody
+{
+	display: inline-block;
+	position: static;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#mainPane #tagDiv #tagScrollWrapper .tagBody .tagItemDiv
+{
+	float: left;
+	font-size: 15px;
+	color: #99a3c;
+	padding: 5px;
+	line-height: 25px;
+	background: #ededed;
+	border: 1px solid #ededed;
+}
+
+#mainPane #tagDiv #tagScrollWrapper .tagBody .tagItemDiv.hl
+{
+	color: #ff7700;
+	background: #ffe7c4;
+	border: 1px solid #ff7700;
+	border-radius: 5px;
+}
+
+#mainPane #tagDiv .inptDiv.tight
+{
+	margin-top: 0px;
+	position:absolute;
+    top: 0px;
+    left: -1px;
+    right: 0px;
+}
+#mainPane #tagDiv .inptDiv.tight > .inptCls
+{
+	width: 130px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#mainPane #tagDiv .inptDiv .inputIcon
+{
+	position:absolute;
+	display: inline-block;
+	width: 30px;
+    top: 0px;
+    bottom: 0px;
+    left: 168px;
+	text-align: center;
+	color: #3e4594;
+	padding-top: 15px;	
+	border-left: 1px solid #999999;
+	background: #e5e4f2;
+}

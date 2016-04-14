@@ -1,0 +1,106 @@
+#mainPane #trash	
+{
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: -2px 0px 4px #999999;
+    width: 200px;
+    display: none; 
+    z-index: 90;
+    background: #f0f0f0; 
+}
+
+#mainPane #trashDiv
+{
+	position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#mainPane #trashDiv #trashScrollWrapper
+{
+	position: absolute;	
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 60px;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup
+{
+	position: relative;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashSecHeader
+{
+	position: relative;
+	margin: 0px;
+	color: #ff7700;
+	font-weight: 700;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border-bottom: 1px dotted #ff7700;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashBody .trashItem
+{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashBody .trashItem .checkBox
+{
+	position: absolute;
+	top: 27px;
+	left: 5px;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashBody .trashItem .checkBox .checkIcon
+{
+	visibility: hidden;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashBody .trashItem.checked .checkBox .checkIcon
+{
+	visibility: visible;
+}
+
+#mainPane #trashDiv #trashGroupWrapper .trashGroup .trashBody .trashItem .trashImg
+{
+	position: absolute;
+	top: 5px;
+	left: 35px; 
+}
+
+#mainPane #trashDiv #doneShareBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 0px;
+	right: 100px;
+	bottom: 0px;
+	background: #a8b34b;
+	font-weight: 700;
+}
+
+#mainPane #trashDiv #cancelShareBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 100px;
+	right: 0px;
+	bottom: 0px;
+	font-weight: 700;
+}

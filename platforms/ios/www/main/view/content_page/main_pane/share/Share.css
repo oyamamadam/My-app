@@ -1,0 +1,93 @@
+#mainPane #share	
+{
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: -2px 0px 4px #999999;
+    width: 200px;
+    display: none; 
+    z-index: 90;
+    background: #f0f0f0; 
+}
+
+#mainPane #shareDiv
+{
+	position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#mainPane #shareDiv #shareScrollWrapper
+{
+	position: absolute;	
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 60px;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper
+{
+	width: 100%;
+	border-bottom: 1px dotted #999999;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper.subHeader
+{
+	box-shadow: inset 0px -2px 5px #999999;
+	background: #536578; 
+	color: #ffffff;	
+	padding: 10px;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper.subItem
+{
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper.subItem.selected
+{
+	background: #dcebfa;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper.subItem .shareLb
+{
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+#mainPane #shareDiv #shareScrollWrapper .shareGroupWrapper > div
+{
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+#mainPane #shareDiv #doneShareBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 0px;
+	right: 100px;
+	bottom: 0px;
+	background: #a8b34b;
+	font-weight: 700;
+}
+
+#mainPane #shareDiv #cancelShareBtn
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	left: 100px;
+	right: 0px;
+	bottom: 0px;
+	font-weight: 700;
+}

@@ -1,0 +1,43 @@
+#fav
+{
+	position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+    padding: 10px;
+}
+
+#fav #favHeader
+{
+	text-align: left;
+	font-size: 20px;	
+	padding-left: 10px;
+}
+
+#fav #favOuter
+{
+	position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+#fav .favItem
+{
+	padding: 10px;
+	float: left;
+	height: 200px;
+	display: block;
+    overflow: hidden;
+}
+
+#fav .favImg
+{
+	height: 200px;
+	margin-left: 5px;
+}

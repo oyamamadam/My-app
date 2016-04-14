@@ -1,0 +1,511 @@
+#wizardPage
+{
+	margin: 0px;
+	overflow:hidden;  	
+	display: none;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#wizardPage #wizHeader
+{
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+}
+
+#wizardPage #s1
+{
+	display:inline-block;
+	position: absolute;
+	left: 10px;
+	top: 60px;
+}
+#wizardPage #s2
+{
+	display:inline-block;
+	position: absolute;
+	left: 110px;
+	top: 60px;
+}
+#wizardPage #s3
+{
+	display:inline-block;
+	position: absolute;
+	left: 210px;
+	top: 60px;
+}
+
+#wizardPage #wizHeader .wizLogo
+{
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	height: 40px;
+	width: 90px;
+	background-color: #e1e5e6;
+	margin-top: -5px;
+}
+
+#wizardPage #wizMsg
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;	
+}
+
+#wizardPage #wizBody
+{
+	display: inline-block;
+	position: absolute;
+	top: 70px;
+	bottom: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+#wizardPage #wizBody #stepTxtDiv
+{
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	font-weight: 300;
+	visibility: hidden;
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+#wizardPage #wizBody #wizContent
+{
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+#wizardPage #wizBody #wizContent .stepPage
+{
+	display: none;
+	border: 1px solid #536578;
+	text-align: left;
+	padding: 3px;
+	overflow: hidden;
+}
+
+#wizardPage #wizBody #wizContent .colHeader
+{
+	height: 40px;
+	display: table-cell;
+	font-weight: 300;
+	font-size: 12px;
+	padding-top: 4px;
+	text-align: center;
+	overflow:hidden;
+}	
+
+#wizardPage #wizBody #wizContent .col1
+{
+	width: 250px;	
+}
+
+#wizardPage #wizBody #wizContent .col2
+{
+	width: 75px;
+}
+#wizardPage #wizBody #wizContent .col3
+{
+	width: 75px;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .scrollWrapper
+{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .nextBtn .selectBtn
+{
+	margin-top: 10px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo .nextBtn .selectBtn
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .stepItems
+{
+	overflow: hidden;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem > div
+{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	bottom: 0px;	
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .checkCan
+{
+	width: 65px;	
+	min-height: 30px;
+	text-align: center; 
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .checkCan .checkIcon
+{
+	visibility: hidden;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .checkCan.checked .checkIcon
+{
+	visibility: visible;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .checkCan > div
+{
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	margin-left: 15px;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .keywordCheck > div
+{
+	margin-left: 20px;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .folderTxt
+{	
+	width: 240px;	
+	min-height: 30px;  
+	padding-left: 10px;	
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .folderTxt > div
+{
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	word-wrap: break-word;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: left;
+	overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizFolderItem .folderTxt > div:after
+{
+	content: ' ...................................................................................................';
+	word-wrap: normal;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo
+{
+	padding: 5px;	
+}
+
+#wizardPage #wizBody #wizContent .stepPage .wizBodyHeader
+{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 300;
+	width: 100%;
+	padding-top: 10px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo #wizTwoBody
+{
+	padding: 10px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo #wizTwoBody .wizTwoItem
+{
+	display: block;
+	height: 40px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo #wizTwoBody .wizTwoItem .radioDiv
+{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo #wizTwoBody .wizTwoItem .radioDiv .radioCan
+{
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	left: 8px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwo #wizTwoBody .wizTwoItem .radioTxt
+{
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	left: 5px;
+}
+
+#wizardPage #wizBody #wizContent #wizTwoBody .wizTwoItem .radio
+{
+	visibility: hidden;
+}
+
+#wizardPage #wizBody #wizContent #wizTwoBody .wizTwoItem.checked .radio
+{
+	visibility: visible;
+}
+
+#wizardPage #wizBody #wizContent #wizTwoBody .wizTwoItem #typeDiv
+{
+	margin-left: 0px;	
+}
+
+#wizardPage #wizBody #wizContent #wizThree .headerCan
+{
+	min-height: 30px;
+	margin-top: 10px;
+}	
+
+#wizardPage #wizBody #wizContent #wizThree > .clear
+{
+	height: 20px;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .headerCan .colWiz3Header
+{
+	display: inline-block;
+	font-size: 10px;
+	text-align: center;
+	color: #283b4f;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .colWiz3Header > div
+{
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .headerCan .col1Header
+{
+	width: 200px;
+	text-align: left;
+}
+#wizardPage #wizBody #wizContent #wizThree .headerCan .col2Header
+{
+	width: 40px;
+}
+#wizardPage #wizBody #wizContent #wizThree .headerCan .col3Header
+{
+	width: 40px;
+}
+#wizardPage #wizBody #wizContent #wizThree .headerCan .col4Header
+{
+	width: 40px;
+}
+#wizardPage #wizBody #wizContent #wizThree .headerCan .col5Header
+{
+	width: 56px;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .keywordTypeItem .radio
+{
+	visibility: hidden;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .keywordTypeItem.checked .radio
+{
+	visibility: visible;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem
+{
+	margin-bottom: 10px;
+	height: 25px;
+}
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem > div
+{
+	display: inline-block;
+	float: left;	
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTxt
+{	
+	width: 200px;	
+	min-height: 25px; 	
+	display: inline-block;
+	position: relative;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTxt > div
+{
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	word-wrap: break-word;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: left;
+	overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTxt > div:after
+{
+	content: '............................................................................................................';
+	word-wrap: normal;
+}
+
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTypeItem.A
+{
+	margin-left: 15px;	
+}
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTypeItem.B
+{
+	margin-left: 17px;	
+}
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTypeItem.C
+{
+	margin-left: 18px;	
+}
+#wizardPage #wizBody #wizContent #wizThree .stepItems .wizKeywordItem .keywordTypeItem.D
+{
+	margin-left: 30px;	
+}
+
+
+
+
+#wizardPage #wizProgress
+{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+	
+#wizardPage #wizProgress #progressLbDiv
+{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	width: 300px;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+
+#wizardPage #wizProgress #progressDiv
+{
+	display: inline-block;
+	border: 2px solid #536578;
+	height: 20px;
+	width: 300px;
+	text-align: left;
+}
+
+#wizardPage #wizProgress #progressDiv #progressBarLb
+{
+	color: #283b4f;
+	font-size: 11px;
+	text-align: right;
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+
+#wizardPage #wizProgress #progressDiv #progressBar
+{
+	display: block;
+	margin: 2px;
+	background: #aebecf;
+	width: 0px;
+	height: 16px;
+	color: #283b4f;
+	font-size: 11px;
+	text-align: right;
+}
+
+/* ( add by 15 21.05.2015 */
+#txt_selected_folder, #progress
+{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.divRadio, .divInputFolder, .divProgress
+{
+	box-sizing: border-box;
+	display: inline-block;
+	height: 48px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.divInputFolder
+{
+	height: 96px;
+}
+
+.radioButton
+{
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline;
+	height: 36px;
+	left: 8px;
+	position: relative;
+	top: 8px;
+	width: 36px;
+}
+
+.radioLable
+{
+	box-sizing: border-box;
+	display: inline;
+	height: 36px;
+	left: 8px;
+	position: relative;
+	top: -4px;
+}
+
+#txt_selected_folder/*, #btn_selected_folder*/
+{
+	box-sizing: border-box;
+	display: inline-box;
+	height: 36px;
+	margin: 6px 8px;
+	position: relative;
+	width: 376px;
+}
+
+.skipBtn
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#btn_selected_folder, #scan_all, #scan_folder, 
+.divBtn, .divRadio, .radioDiv, .footerBtn, .checkDiv, div.link .checkIcon, .checked
+{
+	cursor: pointer;
+}
+
+/* add by 15 21.05.2015 ) */

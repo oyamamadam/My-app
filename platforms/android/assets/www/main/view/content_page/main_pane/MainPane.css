@@ -1,0 +1,15 @@
+/* Right Side Content */
+
+#mainPane > #rDiv
+{
+	position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 200px;
+    right: 0px;
+}
+
+#contentPage #rDiv #footer
+{
+	display: none;
+}

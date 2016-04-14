@@ -1,0 +1,14 @@
+#testPage div{
+	margin: 10px;
+	padding-top: 25px;
+}
+#test-stepper{
+	width: 100px;
+}
+#test-slider{
+	width: 400px;
+}
+#testPage #info{
+	display: inline-block;
+    background-color:#FFA500;
+}

@@ -1,0 +1,82 @@
+#subHeader
+{
+	background: #e8e8e8;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+	margin-top: 130px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 35px;
+	box-shadow: 2px 0px 4px #333333;
+	z-index: 0;
+}
+
+#subHeader > div
+{
+	display: inline;
+	position: static;
+    float: left;
+    margin: 0px;	
+}
+
+#subHeader .picIcon
+{
+	color: #bdbdbd;
+	margin-left: 10px;
+	margin-top: 11px;
+}
+
+#subHeader #subHeaderOptionsDiv
+{
+	display: inline;
+	position: static;
+    float: right;
+    height: 100%;
+    float: right;
+    visibility: hidden;
+    padding-right: 20px;
+}
+
+#subHeader #subHeaderOptionsDiv .subNavBtn
+{
+	display: inline-block;	
+	margin-left: 10px;
+	box-shadow: 0px 0px 0px 0px #7a8a99;
+	width: 32px;
+	height: 28px;
+	padding: 2px;
+	text-align: center;
+}
+
+#subHeader #subHeaderOptionsDiv .subNavBtn.hl
+{
+	
+}
+
+#subHeader #subHeaderOptionsDiv .subNavBtn .subHeaderIcon
+{
+	width: 30px;
+	height: 30px;
+}
+
+#subHeader .keywords
+{
+    color: #999999;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+#subHeader .selCount
+{
+    color: #999999;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-top: 9px;
+    visibility: hidden;
+}

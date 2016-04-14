@@ -1,0 +1,18 @@
+{
+	"name": "BiblioDT",
+	"main": "./index.html",
+	"version": "0.0.2",
+	"window": {
+		"title": "Biblio DeskTop",
+		"toolbar": false,
+		"min_width": 640,
+		"min_height": 480,
+		"width": 1280,
+		"height": 780,
+		"position": "center"
+	},
+	"dependencies": {
+		"requirejs": "latest",
+		"amdefine": "latest"
+	}
+}

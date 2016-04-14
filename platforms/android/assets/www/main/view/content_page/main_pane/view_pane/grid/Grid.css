@@ -1,0 +1,29 @@
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #gridPane
+{    
+    position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: none;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #gridPane #gridPaneItems
+{
+	position: absolute;
+	display: block;
+    overflow:hidden; 
+    left: 0px;
+	right: 0px;
+	height: 100%;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #gridPane #gridPaneItems .gpItem
+{
+	display: inline-block;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;	
+}

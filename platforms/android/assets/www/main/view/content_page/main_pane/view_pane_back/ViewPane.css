@@ -1,0 +1,233 @@
+#viewPaneWrapper
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;	
+	top: 175px;
+	left: 0px;
+	right: 0px;
+	bottom: 5px;
+}
+
+#viewPaneBackground
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;	
+	top: 175px;
+	left: 0px;
+	right: 0px;
+	bottom: 10px;
+	background: #000000;
+}
+
+#viewPane
+{    
+    position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+ 
+#viewPane #viewPaneItems
+{
+	position: absolute;
+	display: block;
+    overflow:hidden; 
+    left: 0px;
+	right: 0px;
+}
+
+#viewPane #viewPaneItems .vpItem 
+{
+	position: relative;
+	float: left;
+	display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding-right: 5px; /* THIS IS GAP BETWEEN IMAGES */  
+}
+
+#viewPane #viewPaneItems .vpItem:first-child
+{
+	padding-left: 5px;
+}
+
+#viewPane #viewPaneItems .imgSize
+{
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	position: relative;
+}
+
+#viewPane #viewPaneItems .vpItem.selected .imgSize
+{
+	opacity: 1;
+}
+
+#viewPane #viewPaneItems .pictureItem
+{
+	max-width: 100%; 
+	max-height: 100%;		
+	min-width: 100%; 
+	min-height: 100%;
+}
+
+#viewPane #viewPaneItems .picOverlay.selected.tagging
+{
+    border: 3px solid #ff7700;
+}
+#viewPane #viewPaneItems .picOverlay.selected.sharing
+{
+    border: 3px solid #ff7700;
+}
+
+#viewPane #viewPaneItems .picOverlay 
+{
+    position: absolute;
+    color: red;
+    font-size: 10px;
+    z-index: 10;
+    left: 0px;
+    right: 5px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#viewPane #viewPaneItems .vpItem:first-child .picOverlay
+{
+	left: 5px;
+}
+
+#viewPane #viewPaneItems .picInfo 
+{
+    position: absolute;
+    color: #222222;
+    font-size: 12px;
+    z-index: 10;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+#viewPane #viewPaneItems .favIcon 
+{
+    position: absolute;
+    color: #3139de;
+    z-index: 10;
+    left: 10px;
+    bottom: 5px;
+    font-size: 30px;
+}
+
+#viewPane #viewPaneItems .loadingIcon 
+{
+    position: absolute;
+    color: #e8ffff;
+    z-index: 1;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+#viewPane #viewPaneItems .idx 
+{
+    position: absolute;
+    color: #3139de;
+    z-index: 10;
+    right: 10px;
+    bottom: 5px;
+    font-size: 0px;    
+}
+
+#viewPane #viewPaneItems .checkIcon
+{
+    position: absolute;
+    color: #3e4594;
+    z-index: 10;
+    left: 10px;
+    bottom: 5px;
+    font-size: 50px;
+    display: none;
+}
+
+#viewPane #viewPaneItems .vpTagDiv 
+{
+    position: absolute;
+    color: #222222;
+    font-size: 12px;
+    z-index: 10;
+    left: 10px;
+    right: 10px;
+    top: 5px;
+    display: none;
+}
+
+#viewPane #viewPaneItems .vpTagDiv.sharing 
+{
+    
+}
+#viewPane #viewPaneItems .vpTagDiv.preview 
+{
+    display: block;
+}
+#viewPane #viewPaneItems .vpTagDiv.tagging 
+{
+    display: block;
+}
+
+#viewPane #viewPaneItems .vpTagDiv.preview .deleteTagIcon
+{
+    display: none;
+}
+
+#viewPane #viewPaneItems .picInfo > div
+{
+    background: #f1f1f1;
+    padding: 5px;
+    margin: 5px;
+}
+
+#viewPane #viewPaneItems .picInfo.preview 
+{
+    display: block;
+}
+
+#viewPane #viewPaneItems .textOver 
+{
+	color: #ffffff;
+    position: relative;
+    margin-top: -50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* TAGS */
+#viewPane .vpItem .vpTagDiv 
+{
+	position: absolute;
+    display: none;
+    z-index: 100;
+    top: 5px;
+    left: -1px;
+}
+#viewPane .vpItem .vpTagDiv .tagItemDiv 
+{
+	float: left;
+	display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+    margin-right: 5px; /* THIS IS GAP BETWEEN IMAGES */
+    padding: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+}

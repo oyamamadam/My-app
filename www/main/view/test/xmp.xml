@@ -1,0 +1,55 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/"
+    x:xmptk="Adobe XMP Core 5.3-c007 1.136881, 2010/06/10-18:11:35        " >
+
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+
+        <rdf:Description
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
+            xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+            crs:RawFileName="20131223-IMG_3924.jpg"
+            dc:format="image/jpeg"
+            rdf:about=""
+            xmp:MetadataDate="2014-01-24T14:32:10-05:00"
+            xmpMM:DocumentID="4E91E6C705654B5951A90EE6E0A013EC"
+            xmpMM:InstanceID="xmp.iid:1B12185F8584E31187ED9AB9D768CCF1"
+            xmpMM:OriginalDocumentID="4E91E6C705654B5951A90EE6E0A013EC" >
+
+            <xmpMM:History>
+
+                <rdf:Seq>
+
+                    <rdf:li
+                        stEvt:action="saved"
+                        stEvt:changed="/metadata"
+                        stEvt:instanceID="xmp.iid:1B12185F8584E31187ED9AB9D768CCF1"
+                        stEvt:softwareAgent="Adobe Photoshop Lightroom 3.6 (Windows)"
+                        stEvt:when="2014-01-24T14:32:10-05:00" />
+                </rdf:Seq>
+            </xmpMM:History>
+
+            <dc:subject>
+
+                <rdf:Bag>
+
+                    <rdf:li>
+cicadas
+                    </rdf:li>
+                </rdf:Bag>
+            </dc:subject>
+
+            <lr:hierarchicalSubject>
+
+                <rdf:Bag>
+
+                    <rdf:li>
+cicadas
+                    </rdf:li>
+                </rdf:Bag>
+            </lr:hierarchicalSubject>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>

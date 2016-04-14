@@ -1,0 +1,113 @@
+<div id="wizHeader" class="headerBG">
+	<div class="wizLogo logoBGImg_S"></div>
+</div>
+
+<!-- ( add by 15 21.05.2015 -->
+<!--<div id="wizMsg">Please wait while we search your device for photos...</div>-->
+<!--<div id="wizMsg">Select <b>Scan all folders</b> or <b>Scan selected folder</b> and wait while we search your device for photos...</div>-->
+<!-- add by 15 21.05.2015 ) -->
+
+<div id="wizBody">
+	<div id="stepTxtDiv"><b>Step 1.</b> We found photos in the following folders and albums. Please confirm that you want all these included.</div>
+	<div class="clear"></div>
+	<div id="wizContent">
+		<!-- ( add by 15 21.05.2015 -->
+		<div id="wizZero" class="stepPage">
+			
+			<!-- test by 15 -->
+			<input id="read_gps" type="checkbox" checked value="GPS">Read GPS data from EXIF info<br />
+			
+			<div class="divRadio">
+				<input type="radio" id="scan_all" class="radioButton" name="scan_folders" value="scan_all">
+				<label class="radioLable" for="scan_all">Scan all folders</label>
+			</div>
+			<div class="divRadio">
+				<input type="radio" id="scan_folder" class="radioButton" name="scan_folders" value="scan_folder" checked="true">
+				<label class="radioLable" for="scan_folder">Scan selected folder</label>
+			</div>
+			<div class="divInputFolder">
+				<input type="file" id="folderDialog" nwdirectory />
+				<input type="text" id="txt_selected_folder" class="" name="selected_folder" value="/">
+				<!--<input type="button" id="btn_selected_folder" class="" value="Select folder">-->
+				<div id="btn_selected_folder" class="divBtn selectBtn">SELECT FOLDER</div>
+			</div>
+			<div class="divProgress">
+				<p id="progress"></p>
+			</div>
+			<div class="divBtn nextBtn">NEXT</div>
+			<div class="divBtn skipBtn">SKIP SCAN</div>
+		</div>
+		<!-- add by 15 21.05.2015 ) -->
+		<div id="wizOne" class="stepPage">
+			<div class="col1Header col1 colHeader"></div>
+			<div class="col2Header col2 colHeader">Include<br>folder</div>
+			<div class="col3Header col3 colHeader">Use Name<br>As keyword</div>
+			<div class="clear"></div>
+			<div class="scrollWrapper">
+				<div class="stepItems"></div>
+			</div>
+			<div class="divBtn nextBtn">NEXT</div>
+		</div>
+		<div id="wizTwo" class="stepPage">
+			<div class="wizBodyHeader">WHAT WOULD YOU LIKE TO CALL &quot;EVERYTHING ELSE&quot;?</div>
+			<div class="clear"></div>
+			<div class="scrollWrapper">
+				<div id="wizTwoBody">
+					<div class="wizTwoItem checked" val="ENTITIES">
+						<div class="radioDiv"><div class="radioCan"><div class="radio"></div></div></div>
+						<div class="radioTxt">Everything Else (Keep)</div>
+					</div>
+					<div class="wizTwoItem"  val="STUFF">
+						<div class="radioDiv"><div class="radioCan"><div class="radio"></div></div></div>
+						<div class="radioTxt">STUFF</div>
+					</div>
+					<div class="wizTwoItem" val="OTHER">
+						<div class="radioDiv"><div class="radioCan"><div class="radio"></div></div></div>
+						<div class="radioTxt">OTHER</div>
+					</div>
+					<div class="wizTwoItem" val="BACON">
+						<div class="radioDiv"><div class="radioCan"><div class="radio"></div></div></div>
+						<div class="radioTxt">BACON</div>
+					</div>
+<!-- 					<div class="wizTwoItem" val="TXT"> -->
+<!-- 						<div class="radioDiv"><div class="radioCan"><div class="radio"></div></div></div> -->
+<!-- 						<div id="typeDiv" class="inptDiv bgColor4"> -->
+<!-- 							<input id="typeInpt" type="text" placeholder="Type your own name." class="inptCls color1"> -->
+<!-- 						</div> -->
+<!-- 					</div>					 -->
+				</div>
+			</div>
+			<div class="divBtn nextBtn">NEXT</div>
+		</div>
+		<div id="wizThree" class="stepPage">
+			<div class="headerCan">
+				<div class="col1Header colWiz3Header"><div>KEYWORDS FOUND IN YOUR PHOTOS</div></div>
+				<div class="col2Header colWiz3Header"><div>EVENTS</div></div>
+				<div class="col3Header colWiz3Header"><div>PLACES</div></div>
+				<div class="col4Header colWiz3Header"><div>PEOPLE</div></div>
+				<div class="col5Header colWiz3Header"><div></div></div>
+			</div>
+
+			<div class="clear"></div>
+			<div class="scrollWrapper">
+				<div class="stepItems"></div>
+			</div>
+			<div class="divBtn nextBtn">NEXT</div>
+		</div>
+		<div id="wizFour" class="stepPage">
+
+		</div>
+	</div>
+</div>
+
+<div id="wizProgress">
+	<div id="progressLbDiv">Progress..</div>
+	<div class="clear"></div>
+	<div id="progressDiv">
+		<div id="progressBar">0%</div>
+	</div>
+</div>
+
+<!-- <div id="s1">STEP 1</div> -->
+<!-- <div id="s2">STEP 2</div> -->
+<!-- <div id="s3">STEP 3</div> -->

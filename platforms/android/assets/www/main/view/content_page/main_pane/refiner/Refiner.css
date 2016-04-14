@@ -1,0 +1,339 @@
+#refiner 
+{
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: 2px 0px 4px #999999;
+    z-index: 90;
+    width: 200px;
+}
+
+/* refiner columns Styles */
+
+#refiner .col
+{
+	float: left;
+	display: inline;
+	position: static;
+    width: 100%;
+}
+
+#refiner #rCol
+{
+	display: none;
+}
+
+/* header style set start */
+
+#refiner .setHeader
+{
+	position: relative;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+	height: 43px;
+    background: #454545;
+    box-shadow: 0px 2px 2px #999999;
+    z-index: 95;
+    border: 1px solid #e1e2e3;
+}
+
+#refiner .setHeader .upperHeader
+{
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+	height: 22px;
+    background: #f0f0f0;
+    z-index: -1;
+}
+#refiner .setHeader .lowerHeader
+{
+	position: absolute;
+	bottom: 0px;
+    left: 0px;
+    right: 0px;
+	height: 21px;
+    background: #ebebeb;
+    z-index: -1;
+}
+#refiner .setHeader.searched
+{
+	border-right: 5px dotted #3e4594;
+}
+
+#refiner .setHeader .headerTitle
+{
+	display: inline;
+	position: static;
+    font-weight: bold; 
+    color: #536578;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-top: 13px;
+    float: left;
+}
+
+#refiner .setHeader .headerCount
+{
+	display: inline;
+	position: static; 
+    color: #999999;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 16px;
+    float: left;
+}
+
+#refiner .setHeader > .iconDiv
+{
+	display: inline;
+	position: static;
+    color: #536578;
+    float:right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+/* refinerItem styles START: */
+
+#refiner .refinerSet
+{
+	width: 100%;
+}
+
+#refiner .setBody
+{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#refiner .iscrollWrapper
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* refiner item header */
+
+#refiner .refinerItem.searched
+{
+	display: none;
+}
+
+#refiner .refinerItem
+{
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+}
+
+#refiner .subItem
+{
+	width: 100%;
+	height: 40px;
+}
+
+#refiner .refinerItem.refinerItem2
+{
+	width: 100%;
+	height: 40px;
+}
+
+#refiner .refinerSet .refinerItem > div
+{	
+	float: left;
+	display: inline;
+}
+
+#refiner .refinerSet .refinerItem > .level
+{
+    color: #8192a3;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+	top: 50%;
+	margin-right: 2px;
+}
+
+#refiner .refinerSet .refinerItem > .level1
+{
+    width: 38px;    
+	margin-top: -9px;
+}
+
+#refiner .refinerSet .refinerItem > .level > .mark
+{
+	color: #ff00ff;
+}
+
+#refiner .refinerSet .refinerItem > .line
+{
+	background: #cdcdcd;
+	width: 1px;
+	height: 100%;	
+}
+
+#refiner .refinerSet .refinerItem > .line.selected
+{
+	background: #536578;
+}
+#refiner .refinerSet .refinerItem > .line2.selected
+{
+	background: #536578;
+}
+#refiner .refinerSet .refinerItem > .hline.selected
+{
+	background: #536578;
+}
+#refiner .refinerSet .refinerItem > .hline3.selected
+{
+	background: #536578;
+}
+#refiner .refinerSet .refinerItem > .box.selected
+{
+	background: #536578;
+}
+#refiner .refinerSet .refinerItem > .count.selected
+{	
+	color: #536578;
+}
+#refiner .refinerSet .refinerItem > .charLb.selected
+{	
+	color: #536578;
+}
+#refiner .refinerSet .refinerItem > .level.selected
+{	
+	color: #536578;
+	font-weight: bold;
+}
+
+#refiner .refinerSet .refinerItem > .box
+{
+	background: #cdcdcd;
+	height: 10px;
+	margin-top: 16px;
+	text-align: right;
+}
+#refiner .refinerSet .refinerItem > .box2
+{
+	height: 10px;
+	margin-top: 16px;
+}
+#refiner .refinerSet .refinerItem > .box3
+{
+	height: 10px;
+	margin-top: 16px;
+	margin-left: 0px;
+}
+
+#refiner .refinerSet .refinerItem > .count
+{	
+    color: #999999;
+    text-align: left;
+    font-size: 10px;
+    padding-top: 8px;
+    padding-left: 3px;    
+}
+#refiner .refinerSet .refinerItem .dots
+{ 
+    color: #999999;
+    font-size: 17px;
+    margin-left: 16px;
+    margin-top: -6px;
+    width: 100%;
+    visibility: hidden;
+}
+
+#refiner .refinerSet .refinerItem .visible
+{
+    visibility: visible;
+}
+
+/* refiner Item Child  STYLE */
+
+#refiner .refinerSet .refinerItem > .line2
+{
+	background: #cdcdcd;
+	width: 1px;
+	height: 100%;
+	margin-left: 0px;
+}
+
+#refiner .refinerSet .refinerItem > .hline
+{
+	background: #cdcdcd;
+	height: 1px;
+	width: 5px;
+	margin-top: 10px;
+}
+
+#refiner .refinerSet .refinerItem > .level2
+{
+    font-size: 11px;
+    width: 37px;    
+	margin-top: -8px;
+	padding-right: 1px;
+}
+
+#refiner .refinerSet .refinerItem > .charLb
+{
+    width: 40px;    
+    text-align: center;
+    margin-top: 1px;
+    margin-right: 0px;
+    color: #cdcdcd;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#refiner .refinerSet .refinerItem > .count2
+{	
+    padding-top: 8px;
+}
+
+#refiner .refinerSet .refinerItem > .hline3
+{
+	width: 5px;
+}
+#refiner .refinerSet .refinerItem > .level3
+{
+	margin-left: 3px;
+	margin-top: 2px;
+	font-size: 12px;
+	text-align: left;
+	position: static;
+	float: left;
+	display: inline-block;
+	max-width: 148px;
+	min-width: 148px;
+	white-space: nowrap;
+}
+
+#refiner .refinerSet .refinerItem > .box3
+{
+	height: 10px;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+#refiner .refinerSet .refinerItem > .count3
+{	
+    padding-top: 3px;
+}
+
+#refiner .refinerItem.selected
+{
+    background: #dcebfa;
+    width: 199px;
+}
+
+#refiner .headerOpen
+{
+    background: #d1d1d1;
+}

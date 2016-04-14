@@ -1,0 +1,104 @@
+<script>
+    function checkPasswordMatch() {
+        var password = $("#newPassInpt").val();
+        var confirmPassword = $("#rePassInpt").val();
+
+        if (password != confirmPassword) {
+            $("#passwordVerifyCheck").html("<img class=\"32\" src=\"assets/icon/x_red_32x32.png\">");
+            $("#passwordCheck").html(" ")
+
+        } else {
+            $("#passwordCheck").html("<img class=\"32\" src=\"assets/icon/check_green_32x32.png\">");
+            $("#passwordVerifyCheck").html("<img class=\"32\" src=\"assets/icon/check_green_32x32.png\">");
+        }
+    }
+
+$(document).ready(function () {
+                  $("#rePassInpt").keyup(checkPasswordMatch);
+                  });
+    </script>
+<div id="loginBody" class="secBody">
+    <img class="logo" src="assets/icon/logo.png">
+        <form id="loginForm" action="javascript:;">
+            <div id="emailDiv" class="inptDiv bgColor4">
+                <div class="color2 inputIcon fa fa-user"></div>
+                <input id="emailInpt" type="email" placeholder="Email Address" class="inptCls color1" value="">
+                    </div>
+            <div class="clear vGap15"></div>
+            <div id="passDiv" class="inptDiv bgColor4">
+                <div class="color2 inputIcon fa fa-key"></div>
+                <input id="passInpt" type="password" placeholder="Password" class="inptCls color1" value="">
+                    </div>
+            <div id="rmbrMeCheck" class="checkDiv">
+                <div id="rmbrCheck" class="checkBox">
+                    <div class="fa fa-check checkIcon"></div>
+                </div>
+                <div class="bodyTxt">Remember me</div>
+            </div>
+            <div id="loginBtn" class="divBtn">LOGIN</div>
+            <div class="hidden-submit"> <input type="submit" tabindex="-1" /></div>
+            <div id="frgLink" class="link toggleReset">forgot your password?</div>
+            <div class="footerBtn toggleCreate headerBG">CREATE ACCOUNT</div>
+        </form>
+</div>
+
+<div id="resetBody" class="secBody">
+    <img class="logo" src="assets/icon/logo.png">
+        <div class="subHeaderTxt">Forgot your password?</div>
+        <div class="clear vGap10"></div>
+        <div class="cBodyTxt center">Enter your email to rest your password.</div>
+        <div class="clear vGap10"></div>
+        <div class="inptDiv bgColor4">
+            <div class="color2 inputIcon fa fa-user"></div>
+            <input type="email" placeholder="Email" class="inptCls"/>
+        </div>
+        <div class="vGap15"></div>
+        <div class="divBtn">SUBMIT</div>
+        <div class="link toggleReset">Back to Login</div>
+</div>
+<div id="newBody" class="secBody">
+    <img class="logo" src="assets/icon/logo.png">
+        <form id="signupForm" action="javascript:;">
+            <div class="subHeaderTxt">Create new account</div>
+            <div class="clear vGap10"></div>
+
+            <div class="inptDiv bgColor4">
+                <div class="color2 inputIcon fa fa-user"></div>
+                <input id="newEmailInpt" type="email" placeholder="Email Address" class="inptCls color1" value="">
+                    </div>
+            <!--
+             <div class="inptDiv bgColor4">
+             <div class="color2 inputIcon fa fa-user"></div>
+             <input id="reEmailInpt" type="email" placeholder="Re-type User" class="inptCls color1" value="">
+             </div>
+             -->
+
+
+            <div class="clear vGap15"></div>
+            <div class="inptDiv bgColor4">
+                <div class="color2 inputIcon fa fa-key"></div>
+                <input id="newPassInpt" type="password" placeholder="Password" class="inptCls color1" value="">
+                    <div id="passwordCheck"></div>
+                    </div>
+            <div class="inptDiv bgColor4">
+                <div class="color2 inputIcon fa fa-key"></div>
+                <input id="rePassInpt" type="password" placeholder="Password" class="inptCls color1" value="" onChange="checkPasswordMatch();">
+                    <div id="passwordVerifyCheck"></div>
+                    </div>
+            <div class="checkDiv">
+                <div id="termsCheck" class="checkBox">
+                    <div class="fa fa-check checkIcon"></div>
+                </div>
+                <div class="bodyTxt">I agree with BiblioSmart's <u class="toggleTerms">Terms &amp; Conditions</u>.</div>
+            </div>
+            <div id="createBtn" class="divBtn">CREATE ACCOUNT</div>
+            <div class="hidden-submit"> <input type="submit" tabindex="-1" /></div>
+            <div class="link toggleCreate">Back to Login</div>
+        </form>
+</div>
+
+<div id="termsBody" class="secBody">
+    <img class="logo" src="assets/icon/logo.png">
+        <div class="subHeaderTxt">Terms &amp; Conditions</div>
+        <div class="link toggleTerms">Back</div>
+</div>

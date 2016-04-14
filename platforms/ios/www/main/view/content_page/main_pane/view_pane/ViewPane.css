@@ -1,0 +1,139 @@
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;	
+	top: 175px;
+	left: 0px;
+	right: 0px;
+	bottom: 5px;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneBackground
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;	
+	top: 175px;
+	left: 0px;
+	right: 0px;
+	bottom: 10px;
+	background: #000000;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane
+{    
+    position: absolute;
+	overflow:hidden; 
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+ 
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems
+{
+	position: absolute;
+	display: block;
+    overflow:hidden; 
+    left: 0px;
+	right: 0px;
+	height: 100%;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem 
+{
+	position: absolute;
+	float: left;
+	display: inline-block;
+    margin: 0px;
+    padding-right: 5px; /* THIS IS GAP BETWEEN IMAGES */ 
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpImg 
+{
+    position: absolute;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .favIcon 
+{
+    position: absolute;
+    color: #3139de;
+    z-index: 10;
+    left: 10px;
+    bottom: 5px;
+    font-size: 30px;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpTagDiv 
+{
+    position: absolute;
+    color: #222222;
+    font-size: 12px;
+    z-index: 10;
+    left: 10px;
+    right: 10px;
+    top: 5px;
+    display: none;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpTagDiv.sharing 
+{
+    
+}
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpTagDiv.preview 
+{
+    display: block;
+}
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpTagDiv.tagging 
+{
+    display: block;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem .vpTagDiv .tagItemDiv 
+{
+	float: left;
+	display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+    margin-right: 5px; /* THIS IS GAP BETWEEN IMAGES */
+    padding: 8px;
+    margin-top: 5px;
+    color: #ffffff;
+    box-shadow: inset 0px 0px 5px #151515;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem .vpTagDiv .fa 
+{
+    margin-left: 5px; 
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem .vpTagDiv.tagging .tagItemDiv 
+{
+	box-shadow: 0px 0px 5px #000000;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem .vpTagDiv.preview .tagItemDiv .deleteTagIcon
+{
+    display: none;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem .picOverlay 
+{
+    position: absolute;
+    color: red;
+    font-size: 10px;
+    z-index: 10;
+    left: 0px;
+    right: 5px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#contentPage #contentBody #mainPane #rDiv #viewPaneWrapper #viewPane #viewPaneItems .vpItem.selected .picOverlay
+{
+    border: 5px solid #ff7700;
+}

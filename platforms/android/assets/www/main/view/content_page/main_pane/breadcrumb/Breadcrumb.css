@@ -1,0 +1,51 @@
+#breadcrumb
+{
+	margin: 0px;
+	padding-left: 10px;
+	position: absolute;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#breadcrumb > div
+{
+	display: inline;
+    float: left;
+    margin: 0px;
+}
+
+#breadcrumb .types
+{
+	display: inline;
+    float: left;
+}
+
+#breadcrumb .types > div
+{
+	display: inline;
+    float: left;
+}
+
+#breadcrumb > .iconDiv
+{
+	color: #8192a3;
+	margin-top: 5px;
+}
+
+#breadcrumb .types > .fa
+{
+	 margin: 0px;
+	 font-size: 10px;
+	 color: #8192a3;
+	 margin-top: 8px;
+}
+
+#breadcrumb .lbs
+{
+	font-size: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #8192a3;
+	margin-top: 4px;
+}

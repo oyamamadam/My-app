@@ -1,0 +1,105 @@
+#syncPage
+{
+	margin: 0px;
+	overflow:hidden;  	
+	display: none;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999999; 
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#syncPage #syncScreen
+{
+	position: absolute;
+	width: 400px;
+	height: 250px;
+	top: 50%;
+	margin-top: -125px;
+	left: 50%;
+	margin-left: -200px;
+	background: #f1f1f1;
+	border: 1px solid #3e4594;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px #454545;
+}
+
+#syncPage #syncScreen #syncWrapper
+{
+	position: absolute;
+	overflow:hidden; 
+	margin: 0px;	
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	height: 110px;
+	background: #000000;
+}
+
+#syncPage #syncScreen #syncWrapper #syncItems
+{
+	position: absolute;
+	display: block;
+    overflow:hidden; 
+    width: 5000px;
+	height: 100%;
+}
+
+#syncPage #syncScreen #syncWrapper #syncItems .syncItem
+{
+	position: relative;
+	float: left;
+	display: inline-block;
+    margin: 0px;
+    margin-right: 5px; /* THIS IS GAP BETWEEN IMAGES */ 
+    width: 150px;
+	height: 110px;
+	background: #f000ff;
+}
+
+#syncPage #syncScreen #syncWrapper #syncItems .syncItem .syncImg
+{
+    position: absolute;
+    width: 150px;
+}
+
+#syncPage #syncScreen #syncWrapper #syncItems .syncItem .picOverlay 
+{
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#syncPage #syncScreen #syncWrapper #syncItems .syncItem.selected .picOverlay
+{
+    border: 5px solid #ff7700;
+}
+
+#syncPage #syncScreen .cBodyTxt
+{
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	right: 20px;	
+}
+
+#syncPage #syncScreen .divBtn
+{
+	position: absolute;
+	bottom: 15px;
+	left: 80px;
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#syncPage #syncScreen .link
+{
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
+}
